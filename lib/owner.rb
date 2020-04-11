@@ -9,7 +9,6 @@ class Owner
    @mood = "nervous"
    @@all << self
    @species="human"
-   @@all << self
  end
 
  def say_species
