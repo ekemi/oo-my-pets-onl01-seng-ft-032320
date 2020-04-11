@@ -21,7 +21,7 @@ class Owner
 
  def self.count
     self.all.count
-    binding.pry
+    #binding.pry
  end
 
  def self.reset_all
