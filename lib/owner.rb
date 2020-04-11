@@ -2,12 +2,12 @@ class Owner
   # code goes here
   attr_accessor :name,:species
 
- @@all = [] 
+ @@all = []
  def initialize (name)
    @name = name
    @mood = "nervous"
    @@all << self
-   @species="human" 
+   @species="human"
    @@all << self
  end
 
