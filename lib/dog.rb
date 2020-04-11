@@ -1,7 +1,7 @@
 class Dog
   # code goes here
   attr_accessor  :owner, :mood
-  attr_accessor :name
+  attr_reader :name
 
   @@all = []
 
