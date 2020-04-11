@@ -11,5 +11,6 @@ class Cat
   end
   def self.all
      @@all
+     binding.pry
   end
 end
