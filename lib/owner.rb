@@ -50,7 +50,7 @@ class Owner
  def sell_pets
 
    pets = self.dogs + self.cats
-        binding.pry
+
      pets.each do |pet|
          pet.mood = "nervous"
          #pet.owner = nil
